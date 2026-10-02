@@ -1,3 +1,7 @@
+ import './Homepage.css';
+ import './header.css';
+
+
  export function Homepage (){
 
     return (
@@ -6,9 +10,9 @@
                 <div className="left-section">
                     <a href="index.html" className="header-link">
                     <img className="logo"
-                        src="images/logo-white.png" />
+                        src="./assets/images/logo-white.png" />
                     <img className="mobile-logo"
-                        src="images/mobile-logo-white.png" />
+                        src="assets/images/mobile-logo-white.png" />
                     </a>
                 </div>
 
@@ -16,7 +20,7 @@
                     <input className="search-bar" type="text" placeholder="Search" />
 
                     <button className="search-button">
-                    <img className="search-icon" src="images/icons/search-icon.png" />
+                    <img className="search-icon" src="assets/images/icons/search-icon.png" />
                     </button>
                 </div>
 
@@ -27,7 +31,7 @@
                     </a>
 
                     <a className="cart-link header-link" href="checkout.html">
-                    <img className="cart-icon" src="images/icons/cart-icon.png" />
+                    <img className="cart-icon" src="assets/images/icons/cart-icon.png" />
                     <div className="cart-quantity">3</div>
                     <div className="cart-text">Cart</div>
                     </a>
@@ -39,7 +43,7 @@
                     <div className="product-container">
                     <div className="product-image-container">
                         <img className="product-image"
-                        src="images/products/athletic-cotton-socks-6-pairs.jpg" />
+                        src="assets/images/products/athletic-cotton-socks-6-pairs.jpg" />
                     </div>
 
                     <div className="product-name limit-text-to-2-lines">
@@ -48,7 +52,7 @@
 
                     <div className="product-rating-container">
                         <img className="product-rating-stars"
-                        src="images/ratings/rating-45.png" />
+                        src="assets/images/ratings/rating-45.png" />
                         <div className="product-rating-count link-primary">
                         87
                         </div>
@@ -76,7 +80,7 @@
                     <div className="product-spacer"></div>
 
                     <div className="added-to-cart">
-                        <img src="images/icons/checkmark.png" />
+                        <img src="assets/images/icons/checkmark.png" />
                         Added
                     </div>
 
@@ -88,7 +92,7 @@
                     <div className="product-container">
                     <div className="product-image-container">
                         <img className="product-image"
-                        src="images/products/intermediate-composite-basketball.jpg" />
+                        src="assets/images/products/intermediate-composite-basketball.jpg" />
                     </div>
 
                     <div className="product-name limit-text-to-2-lines">
@@ -97,7 +101,7 @@
 
                     <div className="product-rating-container">
                         <img className="product-rating-stars"
-                        src="images/ratings/rating-40.png" />
+                        src="assets/images/ratings/rating-40.png" />
                         <div className="product-rating-count link-primary">
                         127
                         </div>
@@ -125,7 +129,7 @@
                     <div className="product-spacer"></div>
 
                     <div className="added-to-cart">
-                        <img src="images/icons/checkmark.png" />
+                        <img src="assets/images/icons/checkmark.png" />
                         Added
                     </div>
 
@@ -137,7 +141,7 @@
                     <div className="product-container">
                     <div className="product-image-container">
                         <img className="product-image"
-                        src="images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg" />
+                        src="assets/images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg" />
                     </div>
 
                     <div className="product-name limit-text-to-2-lines">
@@ -146,7 +150,7 @@
 
                     <div className="product-rating-container">
                         <img className="product-rating-stars"
-                        src="images/ratings/rating-45.png" />
+                        src="assets/images/ratings/rating-45.png" />
                         <div className="product-rating-count link-primary">
                         56
                         </div>
@@ -174,7 +178,7 @@
                     <div className="product-spacer"></div>
 
                     <div className="added-to-cart">
-                        <img src="images/icons/checkmark.png" />
+                        <img src="assets/images/icons/checkmark.png" />
                         Added
                     </div>
 
