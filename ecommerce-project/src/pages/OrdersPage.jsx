@@ -1,5 +1,4 @@
 import './OrdersPage.css';
-import '../component/Header';
 import { Link } from 'react-router';
 
 export function OrdersPage() {
@@ -9,7 +8,7 @@ export function OrdersPage() {
   <>
 
        <title>Orders</title>
-       <OrdersPage />
+       
 
 
 

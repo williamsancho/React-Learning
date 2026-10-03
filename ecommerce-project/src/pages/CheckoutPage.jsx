@@ -7,7 +7,10 @@
     return (
         <>
 
+
         <title>Checkout</title>
+
+
 
             <div className="checkout-header">
                 <div className="header-content">
@@ -20,7 +23,7 @@
 
                     <div className="checkout-header-middle-section">
                         Checkout (<a className="return-to-home-link"
-                            href="Homepage.jsx">3 items</a>)
+                            to="/checkout">3 items</a>)
                     </div>
 
                     <div className="checkout-header-right-section">
@@ -223,6 +226,7 @@
                     </div>
                 </div>
             </div>
+
 
         </>
 
