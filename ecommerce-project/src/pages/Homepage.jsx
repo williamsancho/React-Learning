@@ -4,6 +4,14 @@ import { products } from '../../starting-code/ecommerce-project-main/data/produc
 
 export function Homepage() {
 
+    fetch('http://localhost:3000/api/products')
+    .then((response) => {
+        return response.json();
+    })
+    .then((data) => {
+        console.log(data);
+    });
+
     return (
         <>
 
