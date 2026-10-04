@@ -1,21 +1,26 @@
 import './Homepage.css';
 import { Header } from '../component/Header';
-import { products } from '../../starting-code/ecommerce-project-main/data/products';
+import { useEffect, useState } from 'react';
 
-export function Homepage() {
+export function Homepage({cart}) {
+    const [products, setProducts] = useState([]);
+   
+    useEffect(() => {
 
     fetch('http://localhost:3000/api/products')
     .then((response) => {
         return response.json();
     })
     .then((data) => {
-        console.log(data);
+        setProducts(data);
     });
+
+    }, []);
 
     return (
         <>
 
-            <Header />
+            <Header cart={cart} />
 
             <div className="home-page">
                 <div className="products-grid">
