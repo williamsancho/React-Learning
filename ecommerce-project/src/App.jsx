@@ -9,7 +9,7 @@ function App() {
    const [cart, setCart] = useState([]);
 
    useEffect(() => {
-        fetch('http://localhost:3000/api/cart-items')
+        fetch('/api/cart-items?expand=product')
     .then((response) => {
         return response.json();
     })
@@ -24,7 +24,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Homepage cart={cart} />} />
-        <Route path="checkout" element={<CheckoutPage cart={cart} />} />
+        <Route path="checkout" element={<CheckoutPage cart={cart} deliveryOption={deliveryOption} />} />
         <Route path="orders" element={<OrdersPage />} />
 
       </Routes>
