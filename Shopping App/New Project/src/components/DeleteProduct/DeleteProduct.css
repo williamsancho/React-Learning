@@ -1,0 +1,45 @@
+.delete-product {
+  padding: 20px;
+  border: 1px solid #dfe3e8;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.delete-product h2 {
+  margin-top: 0;
+}
+
+.delete-product label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.delete-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.delete-controls input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid #aab2bd;
+  border-radius: 6px;
+}
+
+.delete-controls button {
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 6px;
+  background: #dc2626;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.delete-success {
+  color: #15803d;
+}
+
+.delete-error {
+  color: #dc2626;
+}

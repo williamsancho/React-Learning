@@ -1,0 +1,13 @@
+            .chat-message-user {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin-bottom: 10px;
+            }
+
+            .chat-message-bot {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin-bottom: 10px;
+            }

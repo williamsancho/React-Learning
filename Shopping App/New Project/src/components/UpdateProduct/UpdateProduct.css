@@ -1,0 +1,43 @@
+.update-product {
+  padding: 20px;
+  border: 1px solid #dfe3e8;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.update-product h2 {
+  margin-top: 0;
+}
+
+.update-lookup,
+.update-product form {
+  display: grid;
+  gap: 10px;
+}
+
+.update-product form {
+  margin-top: 18px;
+}
+
+.update-product input {
+  padding: 10px;
+  border: 1px solid #aab2bd;
+  border-radius: 6px;
+}
+
+.update-product button {
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 6px;
+  background: #d97706;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.update-success {
+  color: #15803d;
+}
+
+.update-error {
+  color: #dc2626;
+}

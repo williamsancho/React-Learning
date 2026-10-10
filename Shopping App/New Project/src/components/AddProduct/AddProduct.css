@@ -1,0 +1,39 @@
+.add-product {
+  padding: 20px;
+  border: 1px solid #dfe3e8;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.add-product h2 {
+  margin-top: 0;
+}
+
+.add-product form {
+  display: grid;
+  gap: 10px;
+}
+
+.add-product input {
+  padding: 10px;
+  border: 1px solid #aab2bd;
+  border-radius: 6px;
+}
+
+.add-product button {
+  margin-top: 8px;
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 6px;
+  background: #16a34a;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.add-success {
+  color: #15803d;
+}
+
+.add-error {
+  color: #dc2626;
+}

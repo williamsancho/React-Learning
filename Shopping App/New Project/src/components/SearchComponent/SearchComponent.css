@@ -1,0 +1,43 @@
+.search-component {
+  padding: 20px;
+  border: 1px solid #dfe3e8;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.search-component h2 {
+  margin-top: 0;
+}
+
+.search-controls {
+  display: grid;
+  gap: 10px;
+}
+
+.search-controls input {
+  padding: 10px;
+  border: 1px solid #aab2bd;
+  border-radius: 6px;
+}
+
+.search-controls button {
+  width: fit-content;
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 6px;
+  background: #2563eb;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.search-result {
+  margin-top: 18px;
+  padding: 16px;
+  border-left: 4px solid #2563eb;
+  background: #eff6ff;
+}
+
+.product-not-found {
+  margin-top: 18px;
+  color: #dc2626;
+}
