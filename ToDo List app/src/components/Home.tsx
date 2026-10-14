@@ -1,4 +1,12 @@
-function Home() {
+function Home() {   
+
+
+    function generateHexColor(){
+
+        
+
+
+    }
 
 
     return (
@@ -11,43 +19,13 @@ function Home() {
             <div className="div2">
 
 
-                <div className="">
+                <div>
 
+                  <button onClick={generateHexColor}>Create HEX Color</button>
+                  <button>Create RGB Color</button>
+                  <button>Generate Random Color</button>
 
-                    <h2>My First React Project from scratch</h2>
-                    <p>dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-                        ddddddddddddddddddddddddddddddddddddddddddddddddddddddddsdddddddddddddddd
-                        fffffffffffffffffffffffffff
-                        fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-                        fffffffffffffffffffffffffffffffffffffffffffffffffffff
-                        fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-                        fffffffffffffffffffffffff
-                        ffffffffffffffffffffffffffffffffff
-                        dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-                        ddddddddddddddddddddddddddddddddddddddddddddddddddddddddsdddddddddddddddd
-                        fffffffffffffffffffffffffff
-                        fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-                        fffffffffffffffffffffffffffffffffffffffffffffffffffff
-                        fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-                        fffffffffffffffffffffffff
-                        ffffffffffffffffffffffffffffffffff
-                        dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-                        ddddddddddddddddddddddddddddddddddddddddddddddddddddddddsdddddddddddddddd
-                        fffffffffffffffffffffffffff
-                        fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-                        fffffffffffffffffffffffffffffffffffffffffffffffffffff
-                        fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-                        fffffffffffffffffffffffff
-                        ffffffffffffffffffffffffffffffffff
-                        dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-                        ddddddddddddddddddddddddddddddddddddddddddddddddddddddddsdddddddddddddddd
-                        fffffffffffffffffffffffffff
-                        fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-                        fffffffffffffffffffffffffffffffffffffffffffffffffffff
-                        fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-                        fffffffffffffffffffffffff
-                        ffffffffffffffffffffffffffffffffff
-                    </p>
+                    
                 </div>
 
             </div>
