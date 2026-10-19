@@ -32,7 +32,7 @@ export default function Auth({ setUser, setToasts }: LoginProps) {
     const { name, email, pw } = form;
 
     let ok = setErr("email", /^\S+@\S+\.\S+$/.test(email) ? "" : "Enter a valid email.");
-    ok = setErr("pw", pw.length >= 8 ? "" : "Minimum 8 characters.") && ok;
+    ok = setErr("pw", pw.length >= 5 ? "" : "Minimum 8 characters.") && ok;
     if (reg) ok = setErr("name", name.trim() ? "" : "Name is required.") && ok;
     if (!ok) return;
 

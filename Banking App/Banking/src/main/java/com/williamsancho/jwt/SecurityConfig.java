@@ -1,10 +1,9 @@
-package com.revature.jwt;
+package com.williamsancho.jwt;
 
-import com.revature.jwt.JwtFilter;
+import com.williamsancho.jwt.JwtFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
@@ -31,8 +30,8 @@ public class SecurityConfig {
                 .cors(cors -> cors.configurationSource(corsConfigurationSource()))
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/auth/**").permitAll()  // login and register are public
-                        .requestMatchers("/users/**").hasRole("admin")  // get all users requires Admin permissions
+                        .requestMatchers("/user/**").permitAll()  // login and register are public
+                        .requestMatchers("/auth/**").hasRole("admin")  // get all users requires Admin permissions
 
                         .anyRequest().authenticated()   // everything else requires a valid JWT
                 )

@@ -15,7 +15,7 @@ export function Dashboard({ user, onLogout, setToasts }: DashboardProps) {
   return (
     <>
       <header>
-        <div className="logo">&gt;_ Bank of <b>CLI</b></div>
+        <div className="logo">&gt;_ Bank of <b>William Sancho</b></div>
 
         <div>
           <span style={{ color: "var(--mute)", fontSize: ".85rem", marginRight: "10px" }}>

@@ -1,4 +1,4 @@
-package com.revature.jwt;
+package com.williamsancho.jwt;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

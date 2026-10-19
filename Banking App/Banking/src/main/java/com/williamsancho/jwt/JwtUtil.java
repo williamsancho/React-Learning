@@ -1,4 +1,4 @@
-package com.revature.jwt;
+package com.williamsancho.jwt;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -18,9 +18,9 @@ public class JwtUtil {
     private final long EXPIRATION = 1000 * 60 * 60 * 8; // 8 hours
 
     // Generates a signed JWT containing the username, role, and userId as claims
-    public String generateToken(String username, String role, int userId) {
+    public String generateToken(String name, String role, int userId) {
         return Jwts.builder()
-                .setSubject(username) //who the user is
+                .setSubject(name) //who the user is
                 .claim("role","ROLE_" + role) //claims are just other pieces of info
                 .claim("userId", userId)
                 .setIssuedAt(new Date())
